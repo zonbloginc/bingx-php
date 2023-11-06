@@ -3,13 +3,13 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Mxc;
+namespace Zon\Fork;
 
 
-use Lin\Mxc\Api\Spot\Accounts;
-use Lin\Mxc\Api\Spot\Market;
-use Lin\Mxc\Api\Spot\Orders;
-use Lin\Mxc\Api\Spot\Common;
+use Zon\Fork\Api\Spot\Accounts;
+use Zon\Fork\Api\Spot\Market;
+use Zon\Fork\Api\Spot\Orders;
+use Zon\Fork\Api\Spot\Common;
 
 class MxcSpot
 {
@@ -20,7 +20,7 @@ class MxcSpot
 
     protected $options=[];
 
-    function __construct(string $key='',string $secret='',string $host='https://www.mexc.com'){
+    function __construct(string $key='',string $secret='',string $host='https://open-api.bingx.com'){
         $this->key=$key;
         $this->secret=$secret;
         $this->host=$host;
