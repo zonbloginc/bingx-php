@@ -3,9 +3,9 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Mxc\Api\SpotV3;
+namespace Zon\Fork\Api\SpotV3;
 
-use Lin\Mxc\Request;
+use Zon\Fork\Request;
 
 class Publics extends Request
 {
