@@ -3,10 +3,10 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Mxc;
+namespace Zon\Fork;
 
 use GuzzleHttp\Exception\RequestException;
-use Lin\Mxc\Exceptions\Exception;
+use Zon\Fork\Exceptions\Exception;
 
 class Request
 {
