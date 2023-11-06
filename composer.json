@@ -1,18 +1,18 @@
 {
-    "name": "linwj/mxc",
+    "name": "zonfork/bingx",
     "type": "library",
-    "description": "Mexc API Like the official document interface, Support for arbitrary extension.",
+    "description": "Fork MXC to use as BingX - Testing Phrase",
     "license": "MIT",
-    "keywords": ["bitmex", "binance", "okex", "huobi","kucoin","kumex","mexc","mxc"],
+    "keywords": ["bingx", "bingx"],
     "authors": [
         {
-            "name": "linwenjun",
-            "email": "465382251@qq.com"
+            "name": "zonfork",
+            "email": "000@000.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Lin\\Mxc\\": "./src/"
+            "Zon\\Fork\\": "./src/"
         }
     },
     "require": {
