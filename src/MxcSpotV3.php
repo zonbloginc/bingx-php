@@ -3,11 +3,11 @@
  * @author lin <465382251@qq.com>
  * */
 
-namespace Lin\Mxc;
+namespace Zon\Fork;
 
 
-use Lin\Mxc\Api\SpotV3\Privates;
-use Lin\Mxc\Api\SpotV3\Publics;
+use Zon\Fork\Api\SpotV3\Privates;
+use Zon\Fork\Api\SpotV3\Publics;
 
 class MxcSpotV3
 {
