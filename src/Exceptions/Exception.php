@@ -1,5 +1,5 @@
 <?php
-namespace Lin\Mxc\Exceptions;
+namespace Zon\Fork\Exceptions;
 
 class Exception extends \Exception
 {
