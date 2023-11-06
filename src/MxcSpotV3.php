@@ -18,7 +18,7 @@ class MxcSpotV3
 
     protected $options=[];
 
-    function __construct(string $key='',string $secret='',string $host='https://api.mexc.com'){
+    function __construct(string $key='',string $secret='',string $host='https://open-api.bingx.com'){
         $this->key=$key;
         $this->secret=$secret;
         $this->host=$host;
